@@ -1,18 +1,18 @@
 /*body*/
 body {
-        background: #85A5CC;
+        background: #85A5CC url("../images/afx-snowflake.gif") repeat;
         color: aliceblue;
 }
 
 /*Wrapper*/
 #wrapper{
-            background: #30395C;
+            background: hsla(228, 29%, 28%, 0.98);
             border: 4px solid #D0E4F2;
             border-radius: 15px;
             margin-right: auto;
             margin-left: auto;
-            width: 85%;
-            padding:15px;
+            width: 80%;
+            padding:30px;
 
 }
 
@@ -24,29 +24,42 @@ h1{
 /*class*/
 .main{
         border-top: solid 1px #D0E4F2;
+
+}
+
+.sec{
+        margin-top: 60px;
 }
 
 .odd{
-
+        background-color: hsla(213, 41%, 66%, 0.94);
 }
 
 /*paragraphs*/
-
+p {
+    line-height: 32px;
+}
 /*table*/
 table{
         border-collapse: collapse;
-        width:80%;
+        width:100%;
+
 }
 tr{
     display:table-row;
-    
+    background: #D0E4F2;
 }
 th {
     background: #4A6491;
     text-align: left;
+    padding: .6em;
+}
+td{
+    width: 70%;
     padding: .5em;
 }
 /*footer*/
 footer{
         text-align: center;
+        padding-top: 1.5em;
 }
